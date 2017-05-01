@@ -18,8 +18,9 @@ public class leer {
 	        FileReader f = new FileReader(archivo);
 	        BufferedReader b = new BufferedReader(f);
 	        while((cadena = b.readLine())!=null) {
-	            System.out.println(cadena);
-	        	resultado.put("Linea "+contador,cadena);
+	            System.out.println(cadena + "Linea" + contador);
+	            //resultado.put("demo", cadena.toString());
+	            //resultado.put("Linea "+Integer.toString(contador),cadena);
 	        	contador++;
 	        }
 	        b.close();
