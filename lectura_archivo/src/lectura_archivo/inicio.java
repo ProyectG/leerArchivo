@@ -11,7 +11,7 @@ public class inicio {
 	
 	@SuppressWarnings("unused")
 	leer Archivo = new leer();
-	HashMap<String,String> resultado = null;
+	HashMap<Integer,String> resultado = null;
 	try {
 		resultado = leer.leerArchivo("prueba.txt");
 	} catch (IOException e) {
